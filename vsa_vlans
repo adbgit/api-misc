@@ -1,0 +1,5 @@
+curl -u "XXX:XXX" -H "X-Requested-With: Curl" -d "action=list&echo_request=0" "https://qualysapi.qualys.eu/api/2.0/fo/appliance/"
+
+
+curl -u "XXX:XXX" -H "X-Requested-With: Curl" -X "POST" -d "id=43463&set_vlans=1|10.10.10.1|255.255.255.0|vlan1,2|10.10.10.2| 255.255.255.0|vlan2" "https://qualysapi.qualys.eu/api/2.0/fo/appliance/?action=update"
+
